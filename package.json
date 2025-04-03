@@ -2,6 +2,7 @@
   "name": "strip-inline-styles",
   "version": "1.0.0",
   "description": "A lightweight utility to remove inline styles from HTML strings, with no dependencies",
+  "type": "module",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -23,8 +24,16 @@
     "vue",
     "node"
   ],
-  "author": "",
+  "author": "Nati Grossman",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nati-grossman/strip-inline-styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nati-grossman/strip-inline-styles/issues"
+  },
+  "homepage": "https://github.com/nati-grossman/strip-inline-styles#readme",
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@types/node": "^20.11.19",

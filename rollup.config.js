@@ -1,4 +1,5 @@
 import typescript from "rollup-plugin-typescript2";
+import * as typescript_pkg from "typescript";
 
 export default {
   input: "src/index.ts",
@@ -17,7 +18,7 @@ export default {
   external: [],
   plugins: [
     typescript({
-      typescript: require("typescript"),
+      typescript: typescript_pkg,
       clean: true,
     }),
   ],

@@ -21,7 +21,7 @@ export function stripInlineStyles(
   // Remove or update style attributes
   let result = html.replace(
     styleRegex,
-    (match: string, quote: string, styles: string) => {
+    (_match: string, quote: string, styles: string) => {
       if (!styles.trim()) {
         return "";
       }
